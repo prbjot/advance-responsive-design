@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Very Nice Studio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Getting Camera Icon from the google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- Header goes here -->
+        <header>
+            <h2>Very Nice Photography <span class="material-icons" id="camera"> photo_camera </span></h2>
+        </header>
+        <!-- Navigation goes here -->
+        <nav>
+            <ul>
+                <li><a href="index.html"><span class="material-icons" id="Home_Icon"> home </span>Home</a></li>
+                <li><a href="gallery.html"><span class="material-icons" id="Gallery_Icon">collections</span>Gallery</a>
+                </li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="contact.html"><span class="material-icons"
+                            id="Contact_Icon">perm_contact_calendar</span>Contact
+                        Us</a></li>
+                <li><a href="testimonial.html">Our Testimonials</a></li>
+                <li><a href="#" class="Sign_In_Link">Sign In</a></li>
+            </ul>
+        </nav>
+        <main>
+             <!-- Sign in/up page -->
+             <section class="Login_Pop_Up">
+                <span class="close_icon">X</span>
+                <h2 id="sign_in_heading">Sign in</h2>
+                <!-- Form goes here -->
+                <form id="sign_in_form" method="get" action="#">
+                    <input type="email" id="email" name="email" placeholder="Email">
+                    <input type="password" id="password" name="password" placeholder="Password">
+
+                    <input type="submit" id="sbmt_btn" value="Sign in">
+                    <p id="or">OR</p>
+
+                    <section id="create_account_container">
+
+                        <p>Create your account using</p>
+                        <!-- Social Media Icons -->
+                        <section id="Social_Media">
+                            <!-- Facebook Logo -->
+                            <a href="https://facebook.com"><img src="Images/Facebook.png"></a>
+                            <!-- Google Logo -->
+                            <a href="https://google.com"><img src="Images/Google.png"></a>
+                        </section>
+
+                    </section>
+                </form>
+            </section>
+            <!-- Banner Image -->
+            <section id="banner">
+                <img src="Images/Lens.jpg" alt="banner"> <!-- Photo from Pixabay -->
+            </section>
+            <!-- Gallery Information -->
+            <section id="gallery_info">
+
+                <p>It's always amazing to hear positive😄 experiences of our customers. Our studio's name represents our work. Customer's satisfaction is our prime motive. We never let our customers to compromise with the quality of our work.🌟</p>
+                <p id="owner_name">✍️ -Michael</p>
+
+            </section>
+            <h2 id="Our_Clicks_Heading">Our Clicks !</h2>
+            <!-- Gallery Section -->
+            <section>
+                <div class="row">
+                    <div class="column">
+                        <img src="Images/i1.jpg" class="gallery_images" alt="Canadian_PM">  <!--https://pm.gc.ca/themes/pm_theme/images/Trudeau-head.jpg-->
+                        <img src="Images/2.jpg" class="gallery_images" alt="man_with_mask"> <!--https://images.thestar.com/C-AtZVsAEolpoA6ggdn7pUAmghU=/330x220/smart/https://www.thestar.com/content/dam/thestar/news/world/2021/12/03/joe-biden-is-ready-to-destroy-canadas-auto-jobs-this-us-senator-can-stop-him/joe_manchin.jpg-->
+                        <img src="Images/9.jpg" class="gallery_images" alt="painter_girl"> <!--https://thumbs.dreamstime.com/b/female-artist-work-28880484.jpg-->
+                        <img src="Images/8.jpg" class="gallery_images" alt="woman"> <!--From https://miro.medium.com/max/1400/1*I5N1CxJR6hflJk1raxcLBA.jpegs-->
+                        <img src="Images/7.jpg" class="gallery_images" alt="sport_person"> <!--https://pbs.twimg.com/media/FCLEEaCX0AI3avc?format=jpg&name=large-->
+                        <img src="Images/5.jpg" class="gallery_images" alt="American_PM"> <!--https://static01.nyt.com/images/2021/10/29/science/00cli-USCOP26-1/00cli-USCOP26-1-mediumSquareAt3X.jpg-->
+                        <img src="Images/18.jpg" class="gallery_images" alt="American_Personality" id="american_personality"> <!--https://lh3.googleusercontent.com/proxy/DXUFgcXHQiwstp63WD-i_8gQ_wY5DXlFJLhWKRZmWgrr6eOk2yV_GXm5JDRDQfMAgCF8N-fxsC5CfBTlTgaxrBbt6-Ln5g4aQcjAqV_wzq4pe36gzAobo2VKhna4dwuXGN1TLsNHBhaAOTKyM5bJRcVSa1jvmQ-->
+                    </div>
+                    <div class="column">
+                        <img src="Images/10.jpg" class="gallery_images" alt="Footerballer"> <!--https://upload.wikimedia.org/wikipedia/commons/c/c1/Lionel_Messi_20180626.jpg-->
+                        <img src="Images/11.jpg" class="gallery_images" alt="Singer_on_stage"> <!--https://imgs.smoothradio.com/images/55224?crop=16_9&width=500&relax=1&signature=Xa387TTto2cyk63gHfqYrTxlPSU=-->
+                        <img src="Images/12.jpg" class="gallery_images" alt="Singer_in_studio"> <!--https://www.careersinmusic.com/wp-content/uploads/2021/04/singer.jpg-->
+                        <img src="Images/13.jpg" class="gallery_images" alt="Woman_singer"> <!--https://factsofindonesia.com/wp-content/uploads/2020/10/Indonesian-Most-Well-Known-Female-Singer-1280x720.jpg-->
+                        <img src="Images/14.jpg" class="gallery_images" alt="Cricketer"> <!--https://www.cricketcountry.com/wp-content/uploads/2016/04/Indias-Virat-Kohli-celebrates-after-taking-the-wicket.jpg-->
+                        <img src="Images/15.jpg" class="gallery_images" alt="Cricketer"> <!--https://p.imgci.com/db/PICTURES/CMS/238600/238663.jpg-->
+                        <img src="Images/6.jpg" class="gallery_images" alt="Russian_PM"> <!--https://images.indianexpress.com/2021/11/Vladimir-Putin.jpg-->
+                        <img src="Images/29.jpg" class="gallery_images" alt="Actor"> <!--https://media.glamour.com/photos/5f106f278e4a4a27f72a645f/master/w_2600,h_3900,c_limit/GettyImages-1173562531.jpg-->
+                    </div>
+                    <div class="column">
+                        <img src="Images/23.jpg" class="gallery_images" alt="Actor"> <!--https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dwayne-johnson-attends-the-premiere-of-universal-pictures-news-photo-1161880409-1566504158.jpg?crop=0.762xw:0.654xh;0.0698xw,0.0141xh&resize=480:*-->
+                        <img src="Images/19.jpg" class="gallery_images" alt="Speaker"> <!--https://media.istockphoto.com/photos/management-staff-speaking-at-a-company-meeting-picture-id1267842050?b=1&k=20&m=1267842050&s=170667a&w=0&h=7Ahqe4UqaHJyFydS_YAYozA6Nh1xHJgF-oWZjbeqd10=-->
+                        <img src="Images/Young_Photographer.jpg" class="gallery_images" alt="Kid"> <!--From Pixabay Images-->
+                        <img src="Images/17.jpg" class="gallery_images" alt="Business_Man"> <!--https://s3-assets.eastidahonews.com/wp-content/uploads/2021/04/15125415/Canadian-860x484.jpg-->
+                        <img src="Images/27.jpg" class="gallery_images" alt="American_Actor1"> <!--https://www.allthetests.com/quiz33/picture/pic_1449284721_2.jpg?1592828924-->
+                        <img src="Images/28.jpg" class="gallery_images" alt="American_Actor2"> <!--https://hips.hearstapps.com/cos.h-cdn.co/assets/15/12/461614366.jpg-->
+                        <img src="Images/30.jpg" class="gallery_images" alt="American_Actor3"> <!--https://www.yardbarker.com/media/8/2/828bd487a08e150f9416bf8e205ea7e5b3ac4870/600_wide/GettyImages-465783630.jpg-->
+
+                    </div>
+                    <div class="column">
+                        <img src="Images/16.jpg" class="gallery_images" alt="Politician"> <!--https://www.collinsdictionary.com/images/full/politician_254488354.jpg-->
+                        <img src="Images/24.jpg" class="gallery_images" alt="Actress"> <!--https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/wh-aniston-markle-1577208133.jpg?crop=0.502xw:1.00xh;0,0&resize=640:*-->
+                        <img src="Images/21.jpg" class="gallery_images" alt="Previous_American_PM"> <!--https://media.newyorker.com/photos/5909740b8b51cf59fc422d49/master/pass/cassidy-trump-politician.jpg-->
+                        <img src="Images/25.jpg" class="gallery_images" alt="Martial Artist"> <!--https://media.glamour.com/photos/606f4191d486252ea23a3c80/master/w_2776,h_4000,c_limit/1172416966-->
+                        <img src="Images/20.jpg" class="gallery_images" alt="Old_Man"> <!--https://cdn.britannica.com/67/75567-004-A189EC84.jpg-->
+                        <img src="Images/26.jpg" class="gallery_images" alt="Actor"> <!--https://www.newidea.com.au/media/43714/diesel.jpg?width=720&center=0.0,0.0-->
+                    </div>
+                </div>
+
+            </section>
+        </main>
+         <!-- Footer goes here -->
+         <footer>
+            <section id="follow_us"><a href="https://facebook.com">Facebook</a> <a href="https://instagram.com">Instagram</a><a href="https://youtube.com">Youtube</a></section>
+            <section id="Contact_Footer">
+                <span id="contact_heading">Contact</span> <span id="seperator">:</span>
+                <a href="mailto:vnstudio@gmail.com" id="footer_mail">vnstudio@gmail.com</a>
+            </section>
+            <section id="Copyright"> Copyright &copy; Very Nice Studio 2021.All Rights Reserved</section>
+        </footer>
+</body>
+<!-- jQuery goes here -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<!-- Javascript Goes Here -->
+<script src="script.js"></script>
+</html>
